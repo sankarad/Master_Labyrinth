@@ -6,7 +6,8 @@ public class Driver{
 	
 	JFrame frame = new JFrame("Master Labyrinth");
 	JButton[][] grid;
-
+//	JLabel tile1 = new JLabel();
+	
 	public Driver(int width, int length){
 		 frame.setLayout(new GridLayout(width,length));
 		  grid=new JButton[width][length]; //allocate the size of grid
@@ -16,6 +17,7 @@ public class Driver{
 	                        frame.add(grid[x][y]); //adds button array to grid
 	                }
 	        }
+
 	        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
 	        frame.pack(); 
 	        frame.setVisible(true);
