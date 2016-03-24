@@ -18,10 +18,14 @@ public class Player {
 	public boolean Path(){
 		boolean x= false;
 		Object t1,t2,t3,t4;
+		
+		return false;
 	
 	}
-	public Integer isLegal()
-	{
+	public boolean isLegal(){
+		
+		
+		return false;
 		
 	}
 	
