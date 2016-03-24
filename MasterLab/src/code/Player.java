@@ -18,6 +18,7 @@ public class Player {
 	public boolean Path(){
 		boolean x= false;
 		Object t1,t2,t3,t4;
+	
 	}
 	public Integer isLegal()
 	{
