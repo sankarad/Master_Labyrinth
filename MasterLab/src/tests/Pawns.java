@@ -1,6 +1,8 @@
-package code;
+package tests;
 
 import java.awt.Color;
+
+import code.Player;
 //@author Sankara Daly
 // Creates a Pawn Object designed as a simple black square for Stage1
 public class Pawns  {
